@@ -61,8 +61,8 @@ const Auth = () => {
     <div className={classes.container}>
         <div className={classes.wrapper}>
             <div className={classes.left}>
-                <h1>WebDevMania</h1>
-                <p>Connect with your close friends and relatives now</p>
+                <h1>UniVerse</h1>
+                <p>Establish connections with your dear friends and family members today.</p>
             </div>
             <form onSubmit={handleSubmit} className={classes.right}>
                 {isRegister && <input type="text" placeholder='Type username...' onChange={(e) =>setUsername(e.target.value)}/>}
